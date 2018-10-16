@@ -1,0 +1,1 @@
+const Calculator = require('../public/javascripts/calc.js');

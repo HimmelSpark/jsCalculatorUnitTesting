@@ -1,0 +1,44 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  table
+    div#result(style='border:solid; width: 20%') result
+    tr
+      td
+        button#digit_7 7
+      td
+        button#digit_8 8
+      td
+        button#digit_9 9
+      td
+        button#clear C
+    tr
+      td
+        button#digit_4 4
+      td
+        button#digit_5 5
+      td
+        button#digit_6 6
+      td
+        button#op_divide /
+    tr
+      td
+        button#digit_1 1
+      td
+        button#digit_2 2
+      td
+        button#digit_3 3
+      td
+        button#op_multiply *
+    tr
+      td
+        button#digit_0 0
+      td
+        button#op_is =
+      td
+        button#op_plus +
+      td
+        button#op_minus -
