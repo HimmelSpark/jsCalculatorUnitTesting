@@ -1,6 +1,6 @@
 "use strict";
 
-module.exports = class Calculator {
+export default class Calculator {
 
 	constructor() {
 		this.arg_A = '';

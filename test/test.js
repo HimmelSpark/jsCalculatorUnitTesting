@@ -1,11 +1,7 @@
-const Calculator = require('../public/javascripts/calc.js');
-const assert = require('assert');
+"use strict";
 
-// setFunc(funChar) {
-// // 	if (this.ops.find((tmp) => {return tmp === funChar;})) {
-// // 		this.operation = funChar;
-// // 	}
-// // }
+const assert = require('assert');
+import Calculator from '../public/javascripts/calc.js';
 
 describe('Testing module "Calculator"', () => {
 
